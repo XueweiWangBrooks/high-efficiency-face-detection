@@ -1,0 +1,7 @@
+models/model_generated/*
+**checkpoints
+log/*
+test_jiayun
+test_lihao
+data_fer*
+**test
