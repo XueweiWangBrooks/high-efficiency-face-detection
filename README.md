@@ -9,7 +9,8 @@
 * **/models** Contains the base model and the customized model.
 
 ## Model
-The test result of this model on FER-2013 dataset. The dataset contains wild faces with emotion labels (harder to interpret). Distribution is a list, show how many images are predicted as each emotion of the 6 emotions. The order of distritution is the same of the order in column label. This result is for generation 5. Generation 6 achieves 68% accuracy.
+The test result of this model on FER-2013 dataset. The dataset contains wild faces with emotion labels (harder to interpret). Distribution is a list, show how many images are predicted as each emotion of the 6 emotions. The order of distritution is the same of the order in column label. This result is for generation 5. Generation 6 achieves 68% accuracy.      
+
 |label|num image|accuracy|avg confidence|distribution
 |---|---|---|---|---|
 angry|771|0.4396887159533074|0.43960431218956386|[339, 0, 95, 125, 158, 54]
@@ -19,6 +20,7 @@ neutral|909|0.6105610561056105|0.6103332342742551|[34, 0, 123, 555, 175, 22]
 sad|908|0.5770925110132159|0.5771962182550251|[60, 0, 112, 176, 524, 36]
 surprised|628|0.7929936305732485|0.7922665224213865|[18, 0, 38, 39, 35, 498]
 total|4601|0.6579004564225168|0.6576980424330509|N/A
+
 ## Dataset
 FER-2013 and Ryerson Audio-Visual Database (RAVD). All FER-2013 images are used, and to achieve a balance among all labels, face images croped from RAVD video frames are used to fill the gap.
 ## Train
